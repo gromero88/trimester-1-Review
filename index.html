@@ -1,0 +1,125 @@
+<!DOCTYPE html> <html><head>
+        <title>trimester 1 Review</title>
+    <style>.Question {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.headers {
+    display: flex;
+    justify-content: center;
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    height: 100%;
+}
+
+.container {
+    position: fixed;
+
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+ 
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#myBtn:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius:35%;
+}</style></head>
+    <body>
+        <video autoplay="" muted="" loop="" id="myVideo">
+            <source src="https://stream.mux.com/I68S4tcACYRel2ws4LpsLjDQWhuoLzi8/high.mp4?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InQ5UHZucm9ZY0hQNjhYSmlRQnRHTEVVSkVSSXJ0UXhKIn0.eyJleHAiOjE2MDY2MzY4NjYsImF1ZCI6InYiLCJzdWIiOiJJNjhTNHRjQUNZUmVsMndzNExwc0xqRFFXaHVvTHppOCJ9.gGBYTZMMiSYV0M7CP-Wh5h4Tuf3Kh2NLuJq3_dtau7_-vYrLfs46UsnIfxDeqAiNgxnpOpApt6YbS3ZzdCiEpWd1c6N7AP5uoE92kzuzXsqABvkEE12Y2YA9bF5XW5T1V94VXuYl42i4lkb_NWLKZtZzLFrY5RMEv5dQON4AvHWWhHskVUkinyGmv63K0lkH8fzowUuGFKx9D2DbAPMDH6OtqRDkPnEiHbOYVijYaZ1yhsefMNpFe2qHhHTigSnDwBsueEZcGh_SNgneqtsvrvm5dU2UGkfCW___GxKSjTIWjI7tk0IPGescEP890DukBpCB96lIzWpUBKVVruPqrA" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="container">
+            <div class="headers">
+                <h1>How well do you remember Trimester 1</h1>
+            </div>
+            <div></div>
+            <div class="QuestionOne Question">
+                <h3>The h3 has whatr relation ship to the div? </h3>
+                <input><span></span>
+            </div>
+            <div class="Questiontwo Question">
+                <h3>The h3 has whatr relation ship to the div? </h3>
+                <input><span></span>
+            </div>
+            <div class="Questionthree Question">
+                <h3>The h3 has whatr relation ship to the div? </h3>
+                <input><span></span>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div><button id="myBtn" onclick="myFunction()">Pause</button></div>
+        </div>
+
+    
+<script>
+/*__POPCODESTART__*/
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbInZpZGVvIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCIsImJ0biIsIm15RnVuY3Rpb24iLCJwYXVzZWQiLCJwbGF5IiwiaW5uZXJIVE1MIiwicGF1c2UiXSwibWFwcGluZ3MiOiJBQUFBLElBQUlBLEtBQUssR0FBR0MsUUFBUSxDQUFDQyxjQUFULENBQXdCLFNBQXhCLENBQVo7QUFDQSxJQUFJQyxHQUFHLEdBQUdGLFFBQVEsQ0FBQ0MsY0FBVCxDQUF3QixPQUF4QixDQUFWOztBQUVBLFNBQVNFLFVBQVQsR0FBc0I7QUFDbEIsTUFBSUosS0FBSyxDQUFDSyxNQUFWLEVBQWtCO0FBQ2RMLElBQUFBLEtBQUssQ0FBQ00sSUFBTjtBQUNBSCxJQUFBQSxHQUFHLENBQUNJLFNBQUosR0FBZ0IsT0FBaEI7QUFDSCxHQUhELE1BR087QUFDSFAsSUFBQUEsS0FBSyxDQUFDUSxLQUFOO0FBQ0FMLElBQUFBLEdBQUcsQ0FBQ0ksU0FBSixHQUFnQixNQUFoQjtBQUNIO0FBQ0oiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgdmlkZW8gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcIm15VmlkZW9cIik7XG52YXIgYnRuID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJteUJ0blwiKTtcblxuZnVuY3Rpb24gbXlGdW5jdGlvbigpIHtcbiAgICBpZiAodmlkZW8ucGF1c2VkKSB7XG4gICAgICAgIHZpZGVvLnBsYXkoKTtcbiAgICAgICAgYnRuLmlubmVySFRNTCA9IFwiUGF1c2VcIjtcbiAgICB9IGVsc2Uge1xuICAgICAgICB2aWRlby5wYXVzZSgpO1xuICAgICAgICBidG4uaW5uZXJIVE1MID0gXCJQbGF5XCI7XG4gICAgfVxufSJdfQ==</script></body></html>
